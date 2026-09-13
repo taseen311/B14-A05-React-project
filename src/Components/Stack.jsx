@@ -6,18 +6,20 @@ const Stack = ({
     handleRemoveAll
 }) => {
     return (
-        <div className='mt-40 contaner mx-auto w-[300px]'>
-            <h3 className='text-center'>Your Stack</h3>
-            <h2>{stacked.length}Technology added</h2>
+        <div className='mt-40 contaner mx-auto w-[400px] border-2 border-amber-700 h-[200px] p-5 rounded-2xl'>
+            <div className='border-b-2'>
+                <h3 className='text-left font-bold text-3xl text-red-700'>Your Stack</h3>
+            <h2 className='mt-2 mb-5'>{stacked.length}Technology added</h2>
+            </div>
             {
                 stacked.length === 0?
-                <p>No Technology Selected </p>
+                <p className='font-bold text-center mt-3'>No Technology Selected </p>
                 :
                 <div>
                     {
                         stacked.map(item=>(
                             <div key={item.id}
-                            className='border rounded-2xl p-3 flex justify-between items-center'>
+                            className='border border-amber-800 rounded-2xl p-3 flex justify-between items-center'>
                              
                              <div>
                                 <h4 className='font-bold'>{item.name}</h4>
