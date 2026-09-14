@@ -8,7 +8,7 @@ const TechnologyCard = ({
             (item)=>item.id === tech.id
         );
     return (
-        <div className="card w-96 bg-base-100 border border-gray-200 rounded-3xl shadow-sm">
+        <div className="card w-full bg-base-100 border border-gray-200 rounded-3xl shadow-sm">
   <div className="card-body p-7">
 
     <div className="flex justify-between items-start">
@@ -26,7 +26,7 @@ const TechnologyCard = ({
     </div>
 
 
-    <h2 className="text-3xl font-bold mt-5 text-gray-900">
+    <h2 className="text-xl  md:text-3xl font-bold mt-5 text-gray-900">
       {tech.name}
     </h2>
 

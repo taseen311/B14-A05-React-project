@@ -7,7 +7,10 @@ const AvailableTechs = ({
     techs}) => {
     console.log(techs, 'from available techs')
     return (
-        <div className='grid grid-cols-3 gap-5'>
+        <div className='grid 
+             grid-cols-1
+             md:grid-cols-2
+             xl:grid-cols-3 gap-6'>
             {
                 techs.map((tech, ind)=>{
                     return (

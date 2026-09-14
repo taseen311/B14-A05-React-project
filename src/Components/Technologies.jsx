@@ -9,7 +9,7 @@ const Technologies = ({
     const techs = use(techPromise)
     console.log(techs)
     return (
-        <div className='container mx-auto my-20 w-[1200px]'> 
+        <div className='container mx-auto my-20 w-full px-20'> 
             <div className='mb-5'>
                 <h3 className='text-4xl font-bold'>Explore the <span className='text-pink-500'>Technologies</span></h3>
             <p className='text-gray-600'>Pick one technology per category to build your ideal stack</p>

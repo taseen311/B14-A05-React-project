@@ -55,7 +55,8 @@ function App() {
      <Navbar></Navbar>  
      <Hero></Hero>
      <Suspense fallback={<h2>Loading....</h2>}>
-        <div className="flex ">
+        <div className="flex flex-col items-center justify-center
+             lg:flex-row items-start">
            <Technologies
            techPromise={techPromise}
            handleStack={handleStack}

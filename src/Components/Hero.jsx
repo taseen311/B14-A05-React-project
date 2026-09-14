@@ -5,7 +5,7 @@ const Hero = () => {
   <div className="bg-amber-50">
         <div
       className="max-w-7xl
-        mx-auto flex items-center justify-between"
+        mx-auto flex flex-col lg:flex-row items-center justify-between"
     >
      <div>
       <h2 className="font-bold text-6xl mb-5">
