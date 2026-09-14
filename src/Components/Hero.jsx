@@ -16,7 +16,7 @@ const Hero = () => {
         side by side, and put together the stack that fits your <br /> next project.
       </p>
       <div>
-        <button className="btn mr-7 bg-gradient-to-r from-orange-600 to-purple-700 ">Explore Technologies</button>
+        <button className="btn mr-7 bg-gradient-to-r from-orange-500 to-purple-500 ">Explore Technologies</button>
         <button className="btn">Learn more</button>
       </div>
      </div>
