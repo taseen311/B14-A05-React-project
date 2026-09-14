@@ -6,7 +6,7 @@ const Stack = ({
     handleRemoveAll
 }) => {
     return (
-        <div className='mt-10  lg:mt-40 contaner mx-auto w-4/5  lg:w-[400px] border-2 border-amber-700 h-[200px] p-5 rounded-2xl'>
+        <div className='mt-10  lg:mt-40 contaner mx-auto w-4/5  lg:w-[400px] border-2 border-amber-700 h-fit p-5 rounded-2xl'>
             <div className='border-b-2'>
                 <h3 className='text-left font-bold text-3xl text-red-700'>Your Stack</h3>
             <h2 className='mt-2 mb-5'>{stacked.length}Technology added</h2>

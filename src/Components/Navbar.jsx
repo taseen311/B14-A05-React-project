@@ -4,10 +4,10 @@ const Navbar = () => {
     return (
       <div className='sticky top-0 z-50 bg-white'>
           <div className='flex justify-between items-center container mx-auto py-5 '>
-        
+            <button className="md:hidden text-3xl">☰</button>
             <img src={Logo} alt="" />
                
-            <ul className='font-semibold flex gap-8 items-center'>
+            <ul className='hidden md:flex font-semibold  gap-8 items-center'>
                 <li>Home</li>
                 <li>Technologies</li>
                 <li>Projects</li>
